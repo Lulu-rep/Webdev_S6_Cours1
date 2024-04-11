@@ -13,6 +13,7 @@
     align-items: center;
     flex-direction: column;
     margin: 10px;
+    padding : 10px;
 }
 
 #name{
@@ -21,9 +22,11 @@
     align-items: center;
     flex-direction: row;
     margin: 10px;
+    
 }
 .name{
     margin: 10px;
+    padding : 10px;
 }
 
 #email{
@@ -32,6 +35,7 @@
     align-items: center;
     flex-direction: column;
     margin: 10px;
+    padding : 10px;
 }
 
 #sexe{
@@ -40,6 +44,7 @@
     align-items: center;
     flex-direction: row;
     margin: 10px;
+    padding : 10px;
 }
 
 #commentaire{
@@ -48,6 +53,7 @@
     align-items: center;
     flex-direction: row;
     margin: 10px;
+    padding : 10px;
 }
 
 #titre{
@@ -90,6 +96,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Gill Sans", sans-serif;
 }
 #display_warning{
     display: grid;
@@ -98,6 +105,7 @@ body{
     color: red;
     border: 2px dotted red;
     background-color: #f7bcbc;
+    padding: 1%;
 }
 #icone{
     grid-row: 1;
@@ -117,4 +125,13 @@ body{
     align-items: center;
     flex-direction: row;
     margin: 10px;
+}
+
+.label{
+    margin: 10px;
+    padding: 10px;
+}
+
+#sexe_input{
+    margin-left: 10%;
 }

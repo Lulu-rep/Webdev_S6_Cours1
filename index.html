@@ -15,12 +15,17 @@
             <form id="form_info">
                 <div id="name">
                     <div id="lastname" class="name">
-                        <label for="nom">Nom</label>
+                        <b>
+                            <label for="nom">Nom </label>
+                        </b>
                         <input type="text" name="nom" id="nom" required placeholder="votre nom">
+                        
                         <div id="error_nom" class="error">Le champ nom est obligatoire</div>
                     </div>
                     <div id="firstname" class="name">
-                        <label for="prenom">Prénom</label>
+                        <b>
+                            <label for="prenom">Prénom </label>
+                        </b>
                         <input type="text" name="prenom" id="prenom" required placeholder="votre prenom">
                         <div id="error_prenom" class="error">Le champ prenom est obligatoire</div>
                     </div>
@@ -40,7 +45,9 @@
                 </dl>
                 <div id="email">
                     <div id="email_div">
-                        <label for="email">Email</label>
+                        <b class="label">
+                            <label for="email">Email </label>
+                        </b>
                         <input type="email" name="email" id="email_input" required placeholder="votre email">
                     </div>
 
@@ -48,8 +55,10 @@
                 </div>
                 <div id="civilite">
                     <div id="sexe">
-                        <label for="sexe">Civilité</label>
-                        <input type="radio" name="sexe" id="sexe_input" value="Monsieur">M
+                        <b class="label">
+                            <label for="sexe">Civilité</label>
+                        </b>
+                        <input type="radio" name="sexe" id="sexe_input" value="Monsieur">Mr
                         <input type="radio" name="sexe" id="sexe_input" value="Madame">Mme
                         <input type="radio" name="sexe" id="sexe_input" value="Maitre">Maitre
                     </div>
@@ -59,7 +68,9 @@
                     </div>
                 </div>
                 <div id="commentaire">
-                    <label for="commentaire">Commentaire :</label>
+                    <b>
+                        <label for="commentaire">Commentaires</label>
+                    </b>
                     <textarea name="commentaire" id="commentaire"></textarea>
                 </div>
                 <div id="display_warning">
