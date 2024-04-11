@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="page">
+        <div id="register">
+            <h1>inscription</h1>
+        </div>
+        <div id="formulaire">
+            <form id="form_info">
+                <div id="name">
+                    <div id="lastname" class="name">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" required placeholder="votre nom">
+                        <div id="error_nom" class="error">Le champ nom est obligatoire</div>
+                    </div>
+                    <div id="firstname" class="name">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" required placeholder="votre prenom">
+                        <div id="error_prenom" class="error">Le champ prenom est obligatoire</div>
+                    </div>
+                </div>
+                <dl id="titre">
+                    <dt>Notice :</dt>
+                    <dd id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis tortor nec odio
+                        pulvinar, auctor dignissim mi ultrices. Quisque vitae augue justo. Integer dapibus eros id eros
+                        posuere, vel sodales elit eleifend. Fusce ac felis ullamcorper, fermentum libero eget, venenatis
+                        lorem. Integer tempor magna ut ligula dapibus, sit amet aliquet justo consectetur. Sed at urna
+                        felis. Vivamus efficitur nisi et turpis lacinia aliquet. Sed sit amet mi vel ex suscipit
+                        volutpat vel id sem. Maecenas auctor arcu a suscipit fringilla. Cras id elit at risus fermentum
+                        mattis. In ultricies, lacus eget feugiat commodo, libero nulla suscipit ex, eu rutrum lectus
+                        nisl nec risus. Sed ut purus sit amet velit sollicitudin consectetur. Sed sit amet mi sem. Sed
+                        malesuada orci eu quam viverra, eget eleifend lacus bibendum. Curabitur nec arcu ac orci
+                        suscipit aliquam.</dd>
+                </dl>
+                <div id="email">
+                    <div id="email_div">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email_input" required placeholder="votre email">
+                    </div>
+
+                    <div id="error_email" class="error">Le champ mail est obligatoire</div>
+                </div>
+                <div id="civilite">
+                    <div id="sexe">
+                        <label for="sexe">Civilité</label>
+                        <input type="radio" name="sexe" id="sexe_input" value="Monsieur">M
+                        <input type="radio" name="sexe" id="sexe_input" value="Madame">Mme
+                        <input type="radio" name="sexe" id="sexe_input" value="Maitre">Maitre
+                    </div>
+                    <div id="display_civilite">
+                        <div id="result_civilite" class="result">Monsieur </div>
+                        <div id="result_name" class="result">[Nom]</div>
+                    </div>
+                </div>
+                <div id="commentaire">
+                    <label for="commentaire">Commentaire :</label>
+                    <textarea name="commentaire" id="commentaire"></textarea>
+                </div>
+                <div id="display_warning">
+                    <div id="icone">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff0000" d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+                    </div>
+                    <ul id="liste_warning">
+                    </ul>
+                </div>
+                <div>
+                    <button id="submit" type="submit">Envoyer</button>
+                </div>
+            </form>
+            <script src="JS/script.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
