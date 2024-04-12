@@ -19,16 +19,16 @@ function checkForm() {
     document.getElementById('liste_warning').innerHTML = "";
 
     if (nom === "") {
-        document.getElementById('liste_warning').appendChild(document.createElement('li')).innerText = "Le nom est vide";
+        document.getElementById('liste_warning').appendChild(document.createElement('li')).innerText = "Le champ nom est obligatoire";
         document.getElementById('display_warning').style.display = 'grid';
         document.getElementById('error_nom').style.display = 'block';
     }
     if (prenom === "") {
-        document.getElementById('liste_warning').appendChild(document.createElement('li')).innerText = "Le prénom est vide";
+        document.getElementById('liste_warning').appendChild(document.createElement('li')).innerText = "Le champ prénom est vide";
         document.getElementById('display_warning').style.display = 'grid';
     }
     if (mail === "") {
-        document.getElementById('liste_warning').appendChild(document.createElement('li')).innerText = "L'adresse mail est vide";
+        document.getElementById('liste_warning').appendChild(document.createElement('li')).innerText = "Le champ email est vide";
         document.getElementById('display_warning').style.display = 'grid';
     }
     if(sexe === "") {

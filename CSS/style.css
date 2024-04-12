@@ -72,10 +72,12 @@
     margin:10px;
 }
 #text{
-    color: black
+    color: black;
+    background-color: rgba(211, 211, 211, 0.514);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 #page{
-    background-color: wheat;
+    background-color: lightgray;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -135,3 +137,71 @@ body{
 #sexe_input{
     margin-left: 10%;
 }
+#lastname{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+#lastname input{
+    grid-row: 1;
+    grid-column: 2;
+}
+#lastname b{
+    grid-row: 1;
+    grid-column: 1;
+}
+#lastname b label{
+    float: right;
+}
+.star_icon{
+    grid-row: 1;
+    grid-column: 3;
+    height: 10%;
+    width: 10%;
+}
+#error_nom{
+    grid-row: 2;
+    grid-column: 2;
+}
+#firstname{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+#firstname input{
+    grid-row: 1;
+    grid-column: 2;
+}
+#firstname b{
+    grid-row: 1;
+    grid-column: 1;
+}
+#firstname b label{
+    float: right;
+}
+#error_prenom{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#email_div{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+#email_div input{
+    grid-row: 1;
+    grid-column: 2;
+}
+#email_div b{
+    grid-row: 1;
+    grid-column: 1;
+}
+#email_div b label{
+    float: right;
+}
+#error_email{
+    grid-row: 2;
+    grid-column: 2;
+}
+
